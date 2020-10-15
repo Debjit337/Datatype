@@ -38,11 +38,12 @@ Your data
 """
 print(data)
 
-'''
-Programs:
-1. Multiline string ka use karke apna bio data banana hai.
-2. Apne friends name ke variable banae hai aur unko print karna hai ek sath.
-3. Friend variables ka use karke har ek friend ke bar me thoda ka info dena hai print ka use karke.
-Like as:
-    yourFriend variable data: about your friend
-'''
+# string methos
+name = 'Hello Nikhil'
+print('\nCheck N: ', name.index('N'))
+print('\nCapatilze: ', name.capitalize())
+print('\nUpper case: ', name.upper())
+print('\nLower case: ', name.lower())
+
+newdata = name.split(' ')
+print('\nNew data: ', newdata)
