@@ -30,3 +30,9 @@ print('\nName:',data['debjit'] ['name'])
 print('\nMobile:',data['debjit'] ['mobile'])
 print('\nCourse:',data['debjit'] ['course'])
 print('\nAddress:',data['debjit'] ['address'])
+
+#fromkeys
+x=('A','B','C','D')
+y=5
+Thisdict=dict.fromkeys(x,y)
+print(Thisdict)
