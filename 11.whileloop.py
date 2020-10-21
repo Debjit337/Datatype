@@ -41,3 +41,42 @@ while i <= 10000:
         break
     # ++ --
     i += 2
+    
+    
+    # i ye ek starting point hai jo ye bata raha hai ki loop 2 se start hoga.
+i = 2
+# ye while ki condtion hain jaha par ye condtion lagaya hai ki, i jab tak chota ye equal to hoga 100 ke tab tak loop chalega
+while i <= 100:
+    '''
+    Yaha par i jo hai ye tab tak loop se bahar nahi nikalne dega jab tak i ki value 100 ke equal na ho jaye.
+    That means ki, loop tab tak repeate hoga jab tak condtion sahi rahe gi.
+    while loop body me print(i), i ki value print kar raha hai jo bar bar increment ho kar mil raha hai
+    '''
+    print(i)
+    # loop ke andar hum condtion laga sakte hain, aur condtion ke andar break ka use karke loop ko waha par condtion ki mad se rook sakte hain.
+    if i == 20:
+        break
+    # ++ --: i += 2 ye asal me i = i + 2
+    i += 2
+
+
+# create friend party list
+frind_num = int(input('\nEnter number of friends: '))
+
+friend_list = []
+i = 0
+while i < frind_num:
+    i += 1
+    name = input('Enter friend name: ')
+
+    # stop debjit
+    if name == 'debjit':
+        print('\n' + name + ' you are not allowed.')
+        # break
+        continue
+
+    friend_list.append(name)
+
+    # i += 1
+
+print('\nFinal friend list: ', friend_list)
