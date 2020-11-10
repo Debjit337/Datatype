@@ -1,3 +1,9 @@
+import os
+
+# if os.path.exists('file_handling/files/demo.txt') == True:
+#     print('\n I got the file')
+#     os.rename('file_handling/files/demo.txt', 'file_handling/backup/demo.txt')
+
 # choose_file_for_read()
 def choose_file_for_read():
     pass
